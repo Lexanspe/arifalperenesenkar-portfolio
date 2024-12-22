@@ -1,5 +1,5 @@
 body {
-    background-color: #1c1c1c; /* Mat siyah */
+    background-color: #120d20;
     color: #ffffff;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,7 +8,7 @@ body {
 
 header {
     box-sizing: border-box;
-    background-color: #1c1c28; /* Lacivert */
+    background-color: #393053;
     padding: 20px;
     text-align: center;
     position: fixed;
@@ -23,7 +23,7 @@ header h1 {
 }
 
 nav {
-    background-color: #150c1b; /* Mor */
+    background-color: #443C68;
     padding: 10px;
     text-align: center;
 }
@@ -46,15 +46,15 @@ nav a {
 .section {
     box-sizing: border-box;
     margin-bottom: 20px;
-    background-color: rgb(41, 41, 41);
-    border: #ffffff 1px solid;
+    background-color: #1e192e;
+    border: #635985 1px solid;
     border-radius: 5px;
     width: 1200px;
 
 }
 
 .section h2 {
-    color: #4b0082; /* Mor */
+    color: #39aeb6;
     margin: 50px 0px 0px 50px;
 }
 .section p {
@@ -62,7 +62,7 @@ nav a {
     padding: 50px;
 }
 footer {
-    background-color: #525252; /* Lacivert */
+    background-color: #635985;
     padding: 10px;
     text-align: center;
     color: #ffffff;
