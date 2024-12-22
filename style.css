@@ -23,7 +23,7 @@ header h1 {
 }
 
 nav {
-    background-color: #443C68;
+    background-color: #42a2b500;
     padding: 10px;
     text-align: center;
 }
@@ -62,7 +62,8 @@ nav a {
     padding: 50px;
 }
 footer {
-    background-color: #635985;
+    border-top: #635985 1px solid;
+    background-color: #1c172a;
     padding: 10px;
     text-align: center;
     color: #ffffff;
