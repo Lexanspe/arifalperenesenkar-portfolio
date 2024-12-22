@@ -1,0 +1,71 @@
+body {
+    background-color: #1c1c1c; /* Mat siyah */
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;;
+}
+
+header {
+    background-color: #4b0082; /* Mor */
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    color: #ffffff;
+}
+
+nav {
+    background-color: #000080; /* Lacivert */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.container {
+    padding: 20px;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    padding-left: 50px;
+    margin: 80px 0px 0px 0px;
+}
+
+.section {
+    margin-bottom: 20px;
+    background-color: rgb(46, 46, 46);
+    border: #ffffff 1px solid;
+    border-radius: 5px;
+    width: 1200px;
+
+}
+
+.section h2 {
+    color: #4b0082; /* Mor */
+}
+.section p {
+    color: #ffffff;
+    padding: 50px;
+}
+footer {
+    background-color: #000080; /* Lacivert */
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
