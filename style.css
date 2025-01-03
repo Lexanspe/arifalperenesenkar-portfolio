@@ -48,15 +48,17 @@ nav a {
     justify-content: center;
     align-items: flex-start;
     width: 1000px;
-    margin-top: 100px; /* header'ın hemen altında başlaması için */
-    gap: 15px;
+    margin-top: 130px; /* header'ın hemen altında başlaması için */
+    gap: 20px;
 }
 
 .solcontainer, .sagcontainer {
     display: flex;
+    flex-wrap: nowrap;
+    flex: 1; /* İçlerine eklenen .section kutucukları arasında eşit boşluk bırakır */
     flex-direction: column;
     width: 50%;
-    background: rgb(48, 15, 98);
+    /*background: rgb(48, 15, 98);*/
     flex-grow: 1; /* İçlerine eklenen .section kutucukları geldikçe aşağı doğru uzamalarını sağlar */
 }
 
@@ -64,57 +66,23 @@ nav a {
 
 
 
-
-
-
-
-
-
-
-#hardskills h1 {
-    color: #ffffff;
-    text-align: center;
-}
-
-
 #foto {
     width: 250px;
     height: 250px;
-    border-radius: 55px;
+    border-radius: 15px;
+    margin: 0px -30px -30px -30px;
 }
 
-
-
-
-
-
-.skills-ul {
-    list-style: square;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin: 25px;
-}
-
-.skills-li {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    color: white;
-}
 
 .section {
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 20px;
     background-color: #1e192e;
     border: #635985 1px solid;
-    border-radius: 55px;
+    border-radius: 15px;
+    padding: 0px 30px 30px 30px;
 }
 
 .solcontainer .section {
@@ -127,12 +95,15 @@ nav a {
 
 .section h2 {
     color: #39aeb6;
-    margin: 20px 0px 0px 50px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0px 30px;
 }
 
 .section p {
     color: #ffffff;
-    padding: 0px 50px;
+  
+    margin: 5px;
 }
 
 footer {
