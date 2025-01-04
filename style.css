@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    padding: 0;
+    padding-bottom: 50px;
 }
 
 header {
@@ -87,10 +87,12 @@ nav a {
 
 .solcontainer .section {
     align-self: flex-end; /* .solcontainer içerisindeki .section'ları sağa yaslar */
+    margin-left: 50px;
 }
 
 .sagcontainer .section {
     align-self: flex-start; /* .sagcontainer içerisindeki .section'ları sola yaslar */
+    margin-right: 50px;
 }
 
 .section h2 {
@@ -100,7 +102,7 @@ nav a {
     padding: 0px 30px;
 }
 
-.section p {
+.section p, span {
     color: #ffffff;
   
     margin: 5px;
@@ -114,5 +116,5 @@ footer {
     color: #ffffff;
     position: fixed;
     width: 100%;
-    bottom: 0;
+    bottom: 0px;
 }
